@@ -3,7 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Mountain
+  - platTrigger
+  - Boundary
+  - ComboMulti
+  - SpeedBoost
+  - GameManager
+  - Obstacle
+  - Transition
+  - GoodObstacle
+  - Ramp
+  - BlockPoint
+  - CarTrigger
+  - TrafficPoint
+  - PowerJump
+  - EndTransition
   layers:
   - Default
   - TransparentFX

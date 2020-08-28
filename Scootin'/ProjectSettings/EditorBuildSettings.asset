@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/LWRP/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/Menu Test Scene.unity
+    guid: b213d48785cdfc64180730f39e079d10
+  - enabled: 1
+    path: Assets/Scenes/Downhill.unity
+    guid: f56d6c3ab5d01cc49940b934109822de
   m_configObjects: {}

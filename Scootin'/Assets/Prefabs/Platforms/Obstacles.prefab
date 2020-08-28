@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &966996509811389089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 966996509811389090}
+  m_Layer: 0
+  m_Name: Obstacles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &966996509811389090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966996509811389089}
+  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
+  m_LocalPosition: {x: -0.9, y: -26, z: 73.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6771466545062050566}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
+--- !u!1 &1640774535345912269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6771466545062050566}
+  - component: {fileID: 7044047977383684622}
+  - component: {fileID: 7022010227511114240}
+  m_Layer: 0
+  m_Name: ColliderBoundary (Seth)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6771466545062050566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640774535345912269}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.6, z: -7.9876}
+  m_LocalScale: {x: 1, y: 0.009470002, z: 1.1708263}
+  m_Children: []
+  m_Father: {fileID: 966996509811389090}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7044047977383684622
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640774535345912269}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 21.239956, y: 3.7119546, z: 165.55777}
+  m_Center: {x: 1.2715855, y: 2.0585694, z: 9.196045}
+--- !u!114 &7022010227511114240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640774535345912269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea120ca22c2bbb34baf9d925c3acf25a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  count: 4
+  obstacles:
+  - gameObject: {fileID: 7542128860546857851, guid: 22c575dbfe9dd3443b822f4af3fd79d7,
+      type: 3}
+    rarity: 25
+  - gameObject: {fileID: 8151149213362331016, guid: 1bbba89a202dd0d488e448183c4729c2,
+      type: 3}
+    rarity: 50
+  - gameObject: {fileID: 7542128860546857851, guid: 22c575dbfe9dd3443b822f4af3fd79d7,
+      type: 3}
+    rarity: 100
+  - gameObject: {fileID: 7542128860546857851, guid: 22c575dbfe9dd3443b822f4af3fd79d7,
+      type: 3}
+    rarity: 20
+  verticalRaycastOffset: {x: 0, y: 100, z: 0}
+  platObject: {fileID: 0}
